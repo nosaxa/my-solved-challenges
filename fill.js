@@ -38,7 +38,6 @@ fill(company, [], data);
 import _ from "lodash";
 
 // 1.
-
 const fill = (obj1, keys, obj2) => {
   const result = {};
   if (keys.length < 1) return Object.assign(obj1, obj2);
@@ -51,7 +50,6 @@ const fill = (obj1, keys, obj2) => {
 };
 
 // 2.
-
 const fill = (object, keys, data) => {
   const filteredData = keys.length > 0 ? _.pick(data, keys) : data;
   Object.assign(object, filteredData);
