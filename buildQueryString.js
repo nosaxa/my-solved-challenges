@@ -29,7 +29,7 @@ const bqs = (params) => {
   const result = entries
     .sort()
     .map(([key, value]) => `${key}=${value}`)
-    .join("&");
+    .join('&');
 
   return result;
 };
@@ -43,5 +43,5 @@ const bqs = (params) => {
     result.push(`${key}=${params[key]}`);
   }
 
-  return result.join("&");
+  return result.join('&');
 };

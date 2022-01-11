@@ -16,22 +16,22 @@ groupBy(students, 'mark');
 
 {
   3: [
-    { name: "Tirion", class: "B", mark: 3 },
-    { name: "Keit", class: "A", mark: 3 },
+    { name: 'Tirion', class: 'B', mark: 3 },
+    { name: 'Keit', class: 'A', mark: 3 },
   ],
   4: [
-    { name: "Ramsey", class: "A", mark: 4 },
+    { name: 'Ramsey', class: 'A', mark: 4 },
   ],
 }
 
 */
 
-import _ from "lodash";
+import _ from 'lodash';
 
 const students = [
-  { name: "Tirion", class: "B", mark: 3 },
-  { name: "Keit", class: "A", mark: 3 },
-  { name: "Ramsey", class: "A", mark: 4 },
+  { name: 'Tirion', class: 'B', mark: 3 },
+  { name: 'Keit', class: 'A', mark: 3 },
+  { name: 'Ramsey', class: 'A', mark: 4 },
 ];
 
 // 1.

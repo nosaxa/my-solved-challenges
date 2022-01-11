@@ -20,7 +20,7 @@ getSameCount([], []); // 0
 
 */
 
-import _ from "lodash";
+import _ from 'lodash';
 
 // 1.
 const getSameCount = (coll1, coll2) => {

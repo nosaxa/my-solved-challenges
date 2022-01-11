@@ -35,7 +35,7 @@ fill(company, [], data);
 
 */
 
-import _ from "lodash";
+import _ from 'lodash';
 
 // 1.
 const fill = (obj1, keys, obj2) => {

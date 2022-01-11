@@ -28,7 +28,7 @@ getMenCountByYear(users);
 
 */
 
-import _ from "lodash";
+import _ from 'lodash';
 
 // 1.
 const fn = (acc, year) => {
@@ -42,7 +42,7 @@ const fn = (acc, year) => {
 
 const getMenCountByYear = (users) => {
   const result = users
-    .filter((user) => user.gender === "male")
+    .filter((user) => user.gender === 'male')
     .map(({ birthday }) => birthday.slice(0, 4))
     .reduce(fn, {});
   return result;
@@ -50,7 +50,7 @@ const getMenCountByYear = (users) => {
 
 // 2.
 const getMenCountByYear = (users) => {
-  const men = users.filter(({ gender }) => gender === "male");
+  const men = users.filter(({ gender }) => gender === 'male');
 
   const years = men.map(({ birthday }) => birthday.slice(0, 4));
 

@@ -12,14 +12,14 @@ result.key2.innerKey !== data.key2.innerKey; // true
 
 */
 
-import isObject from "lodash/isObject";
+import isObject from 'lodash/isObject';
 
 const data = {
-  key: "value",
+  key: 'value',
   key2: {
-    key: "innerValue",
+    key: 'innerValue',
     innerKey: {
-      anotherKey: "anotherValue",
+      anotherKey: 'anotherValue',
     },
   },
 };
