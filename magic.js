@@ -1,4 +1,4 @@
-/* #hexlet #oop #valueOf #interview
+/* #hexlet #oop #valueOf #recursion #interview
 
 Реализуйте и экспортируйте по умолчанию функцию, которая работает следующим образом:
 
